@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C99CDF1C17087E23005E1E11 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C99CDF1B17087E23005E1E11 /* main.cpp */; };
 		C99CDF1E17087E23005E1E11 /* ProblemSolver.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C99CDF1D17087E23005E1E11 /* ProblemSolver.1 */; };
+		C99CDF2917087E59005E1E11 /* create_equation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C99CDF2417087E59005E1E11 /* create_equation.cpp */; };
+		C99CDF2A17087E59005E1E11 /* find_complement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C99CDF2517087E59005E1E11 /* find_complement.cpp */; };
+		C99CDF2B17087E59005E1E11 /* find_connected_set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C99CDF2617087E59005E1E11 /* find_connected_set.cpp */; };
+		C99CDF2C17087E59005E1E11 /* mincoins.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C99CDF2717087E59005E1E11 /* mincoins.cpp */; };
+		C99CDF2D17087E59005E1E11 /* ProblemSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C99CDF2817087E59005E1E11 /* ProblemSolver.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +30,12 @@
 
 /* Begin PBXFileReference section */
 		C99CDF1817087E23005E1E11 /* ProblemSolver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProblemSolver; sourceTree = BUILT_PRODUCTS_DIR; };
-		C99CDF1B17087E23005E1E11 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C99CDF1D17087E23005E1E11 /* ProblemSolver.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ProblemSolver.1; sourceTree = "<group>"; };
+		C99CDF2417087E59005E1E11 /* create_equation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = create_equation.cpp; sourceTree = "<group>"; };
+		C99CDF2517087E59005E1E11 /* find_complement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = find_complement.cpp; sourceTree = "<group>"; };
+		C99CDF2617087E59005E1E11 /* find_connected_set.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = find_connected_set.cpp; sourceTree = "<group>"; };
+		C99CDF2717087E59005E1E11 /* mincoins.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mincoins.cpp; sourceTree = "<group>"; };
+		C99CDF2817087E59005E1E11 /* ProblemSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProblemSolver.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +68,11 @@
 		C99CDF1A17087E23005E1E11 /* ProblemSolver */ = {
 			isa = PBXGroup;
 			children = (
-				C99CDF1B17087E23005E1E11 /* main.cpp */,
+				C99CDF2417087E59005E1E11 /* create_equation.cpp */,
+				C99CDF2517087E59005E1E11 /* find_complement.cpp */,
+				C99CDF2617087E59005E1E11 /* find_connected_set.cpp */,
+				C99CDF2717087E59005E1E11 /* mincoins.cpp */,
+				C99CDF2817087E59005E1E11 /* ProblemSolver.cpp */,
 				C99CDF1D17087E23005E1E11 /* ProblemSolver.1 */,
 			);
 			path = ProblemSolver;
@@ -117,7 +129,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C99CDF1C17087E23005E1E11 /* main.cpp in Sources */,
+				C99CDF2917087E59005E1E11 /* create_equation.cpp in Sources */,
+				C99CDF2A17087E59005E1E11 /* find_complement.cpp in Sources */,
+				C99CDF2B17087E59005E1E11 /* find_connected_set.cpp in Sources */,
+				C99CDF2C17087E59005E1E11 /* mincoins.cpp in Sources */,
+				C99CDF2D17087E59005E1E11 /* ProblemSolver.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
