@@ -5,10 +5,12 @@ int solve_find_connected_set(void);
 int solve_create_equation(void);
 int solve_complement(void);
 int solve_mincoins(void);
+int solve_fibonacci(void);
 
 int solve_dummy_problem(void)
 {
     //dummy functions for testing purpose
+    printf("Hello World!\n");
     return 0;
 }
 
@@ -20,6 +22,7 @@ int main(int argc, char* argv[])
     //fp = solve_create_equation;
     //fp = solve_complement;
     //fp = solve_mincoins;
+    fp = solve_fibonacci;
     fp();
 
 	return 0;
